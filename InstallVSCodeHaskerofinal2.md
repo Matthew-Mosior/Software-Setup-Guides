@@ -71,7 +71,7 @@ ___
     - **The next steps are important!!**
         - Your terminal should look like this:  
             ```PS SomeDrive:\Path\To\Your\Folder>```
-        - Now we call the "stack new" command to create a new stack project.  We'll call it helloworld.
+        - Now we'll call the "stack new" command to create a new stack project.  Lets call it helloworld.
         - Go ahead and type in the location of your stack.exe.  This is the stack toolchain executable that was installed within Haskell Platform.
             - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).  
         ```PS SomeDrive:\Path\To\Your\Folder> SomeDrive:\Path\To\stack.exe stack new helloworld new-template```
@@ -140,6 +140,7 @@ ___
 > For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
 
 # Credits
+___
 
 > **Haskell Stack Documentation:** [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
 
