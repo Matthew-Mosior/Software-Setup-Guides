@@ -69,13 +69,13 @@ ___
     - This is a Powershell terminal, you will use this to initiate all Haskell commands.
         - You should be within the directory containing the folder you just created or chose.  If not, please Set-Location or cd to the location of the folder.
     - **The next steps are important!!**
-        - Your terminal should look like this:
+        - Your terminal should look like this:  
             ```PS SomeDrive:\Path\To\Your\Folder>```
         - Now we call the "stack new" command to create a new stack project.  We'll call it helloworld.
         - Go ahead and type in the location of your stack.exe.  This is the stack toolchain executable that was installed within Haskell Platform.
             - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).  
         ```PS SomeDrive:\Path\To\Your\Folder> SomeDrive:\Path\To\stack.exe stack new helloworld new-template```
-            - This command will create a new stack project named "helloworld" within the folder you opened in VS Code.
+            - This command will create a new stack project named "helloworld" within the folder you opened in VS Code.  
                  - You should see something like this:  
 
 > Downloading template "new-template" to create project "helloworld" in helloworld/ ...
@@ -93,7 +93,7 @@ ___
 >Checking against build plan lts-3.2
 >Selected resolver: lts-3.2
 >Wrote project config to: /home/matt/helloworld/stack.yaml
-- The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).
+- The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).  
         ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```
                 - You should see something like this:
 > Downloaded ghc-7.10.2.
@@ -121,14 +121,14 @@ ___
 > Installing executable(s) in
 > /home/matt/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/bin
 > Registering helloworld-0.1.0.0...
-- It's finally time to run your executable!
+- It's finally time to run your executable!  
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack exec helloworld-exe```
     - This will output the string "someFunc", which will make sense once you take a look at your Main.hs file.
     - You should see something like this:
 > matt@d30er5643dfS:~/helloworld$ stack exec helloworld-exe
 > someFunc
 - One last thing to show you...
-    - Click on the "Output" tab within the toolbar on the bottom of VS Code.
+    - Click on the "Output" tab within the toolbar on the bottom of VS Code.  
         - This should display the following:  
 > Initializing Haskero...
 > Spawning process 'stack' with command 'stack ghci --with-ghc intero   >"--ghci-options=-ignore-dot-ghci -Wall" --no-build --no-load'
