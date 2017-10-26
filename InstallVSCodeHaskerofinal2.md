@@ -38,7 +38,7 @@ ___
     - Follow the instructions within the installer and do not change the install locations for any of the components, use the default locations.
     - The installer will install the Glasgow Haskell Compiler (GHC), stack tool, cabal build system, 35 core and commonly implemented packages.  You will get extra libraries if you downloaded the Full platform. 
 2. Download Intero
-    - Click this [link](https://github.com/commercialhaskell/intero) to go to the Intero Github page (Credit: [commercialhaskell](https://github.com/commercialhaskell)).
+    - Click this [link](https://github.com/commercialhaskell/intero) to go to the Intero Github page.
     - On the Intero Github page, click the "Releases" tab within the main toolbar near the top of the page.
     - Within the "Releases" tab, click on the most recent release listed near the top of the screen (should be in the following format: a.bc.def where a,b,c,d,e and f are integers)
     - Click the "save" option that will pop-up in your window.  This will save the Intero files to your pc.
@@ -94,7 +94,7 @@ ___
 >Selected resolver: lts-3.2
 >Wrote project config to: /home/matt/helloworld/stack.yaml
 - The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).  
-        ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```
+        ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```  
                 - You should see something like this:
 > Downloaded ghc-7.10.2.
 > Installed GHC.
