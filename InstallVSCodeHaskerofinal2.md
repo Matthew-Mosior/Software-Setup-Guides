@@ -57,7 +57,7 @@ ___
     - After a short time, this "Install" button will say "Reload", click it.
         - The will install and load the Haskero extension.
     - Click File -> Preferences -> Settings.
-        - A "settings.json" file will appear in the main toolbar (tab should show "User Settings).
+        - A "settings.json" file will appear in the main toolbar (tab should say "User Settings").
     - Within "settings.json", find the "Haskero Configurations" drop-down menu.
         - Within the drop-down menu, look for the "haskero.intero.stackpath" setting. 
         - It should have "stack" as its value.  This is value we will use, keep it.
@@ -137,7 +137,8 @@ ___
 
 #### Congratulations! You've now successfully installed the proper components to create, build, and execute a new stack project using the Haskero extension within VS Code.  Enjoy!
 
->For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
+> For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
+>Credit : [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
 
 
 
