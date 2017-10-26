@@ -102,9 +102,9 @@ ___
 > For more information on paths, see 'stack path' and 'stack exec env'
 > To use this GHC and packages outside of a project, consider using:
 > stack ghc, stack ghci, stack runghc, or stack exec
-- Now its time to use the command "stack build". 
+- Now its time to use the command "stack build".   
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack build```
-   - This will build your helloworld project and create a local helloworld-exe.
+   - This will build your helloworld project and create a local helloworld-exe.  
    - You should see something like this:
 > helloworld-0.1.0.0: configure
 > Configuring helloworld-0.1.0.0...
