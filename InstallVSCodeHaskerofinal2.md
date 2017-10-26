@@ -83,7 +83,7 @@ ___
 >author-email: example@example.com
 >author-name: Example Author Name
 >Copy these to /home/matt/.stack/config.yaml and edit to use different values.
->Writing default config file to: /home/michael/helloworld/stack.yaml
+>Writing default config file to: /home/matt/helloworld/stack.yaml
 >Basing on cabal files:
 >/home/matt/helloworld/helloworld.cabal
 >Downloaded lts-3.2 build plan.
