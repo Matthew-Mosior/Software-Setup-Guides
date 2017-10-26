@@ -139,9 +139,15 @@ ___
 
 > For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
 
-> Haskell Stack Documentation Credit : [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
+# Credits
 
-#### Matthew Mosior, October 2017.
+> **Haskell Stack Documentation:** [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
+
+> **Haskero:** [Julien Vannesson](https://gitlab.com/vannnns/haskero) 
+
+> **Intero:** [Commercialhaskell](https://github.com/commercialhaskell) Contributors: [chrisdone](https://github.com/chrisdone), [purcell](https://github.com/purcell) et al.
+
+#### Documentation created by [Matthew Mosior](https://github.com/Matthew-Mosior), October 2017.
 
 
 
