@@ -138,7 +138,10 @@ ___
 #### Congratulations! You've now successfully installed the proper components to create, build, and execute a new stack project using the Haskero extension within VS Code.  Enjoy!
 
 > For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
->Credit : [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
+
+> Haskell Stack Documentation Credit : [Stack Contributors](https://docs.haskellstack.org/en/stable/README/)
+
+#### Matthew Mosior, October 2017.
 
 
 
