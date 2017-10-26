@@ -43,15 +43,15 @@ ___
     - Within the "Releases" tab, click on the most recent release listed near the top of the screen (should be in the following format: a.bc.def where a,b,c,d,e and f are integers)
     - Click the "save" option that will pop-up in your window.  This will save the Intero files to your pc.
 3. Download VS Code, Haskero and Start a Hello world Haskell Project.
-    - Click this [link](https://code.visualstudio.com/) to go to VS Code homepage.  
+    - Click this [link](https://code.visualstudio.com/) to go to the VS Code homepage.  
         - On the homepage click the green button in the middle that says "Download for Windows Stable Build".
     - Click the "run" option that will pop-up in your window.  This will run the installer executable.
     - The installer will then pop-up on your screen after minimizing your browser window.
     - Follow the instructions within the installer and do not change the install locations for any of the components, use the default locations.
         - Within the installer, a setup screen will have four options with checkboxes next to them, with the last already checked off.  The last checkbox places VS Code in your pc's registry, this is important. The first three are optional, but can be useful with quickly opening outside files into VS Code and giving it setup icon within the start-up menu. 
-    - After VS Code is successfully installed, open VS Code a Welcome tab will greet you.
-    - On the right side of the Welcome tab, click the box the says "Tools and Languages".
-    - After clicking "Tools and languages", the toolbar of the left side of the screen will have opened up with a search bar at the top.  
+    - After VS Code is successfully installed, open VS Code and a "Welcome" tab will greet you.
+    - On the right side of the "Welcome" tab, click the box the says "Tools and Languages".
+    - After clicking "Tools and languages", the toolbar of the left side of the screen will have opened up with a search bar at the top. 
     - Type "Haskero" into the search bar.
     - Under the choice named "Haskero", click the button on the choice that says "Install".
     - After a short time, this "Install" button will say "Reload", click it.
@@ -95,7 +95,7 @@ ___
 >Wrote project config to: /home/matt/helloworld/stack.yaml
 - The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).  
         ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```  
-                - You should see something like this:
+                 - You should see something like this:
 > Downloaded ghc-7.10.2.
 > Installed GHC.
 > stack will use a sandboxed GHC it installed
