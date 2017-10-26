@@ -68,7 +68,7 @@ ___
     - Click the "Terminal" tab on the top left of the toolbar at the bottom left of the screen.
     - This is a Powershell terminal, you will use this to initiate all Haskell commands.
         - You should be within the directory containing the folder you just created or chose.  If not, please Set-Location or cd to the location of the folder.
-    - The next steps are important!!
+    - **The next steps are important!!**
         - Your terminal should look like this:
             ```PS SomeDrive:\Path\To\Your\Folder>```
         - Now we call the "stack new" command to create a new stack project.  We'll call it helloworld.
