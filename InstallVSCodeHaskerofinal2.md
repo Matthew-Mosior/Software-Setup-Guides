@@ -82,17 +82,17 @@ ___
 >Using the following authorship configuration:
 >author-email: example@example.com
 >author-name: Example Author Name
->Copy these to /home/michael/.stack/config.yaml and edit to use different values.
+>Copy these to /home/matt/.stack/config.yaml and edit to use different values.
 >Writing default config file to: /home/michael/helloworld/stack.yaml
 >Basing on cabal files:
->/home/michael/helloworld/helloworld.cabal
+>/home/matt/helloworld/helloworld.cabal
 >Downloaded lts-3.2 build plan.
 >Caching build plan
 >Fetched package index.
 >Populated index cache.
 >Checking against build plan lts-3.2
 >Selected resolver: lts-3.2
->Wrote project config to: /home/michael/helloworld/stack.yaml
+>Wrote project config to: /home/matt/helloworld/stack.yaml
 - The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).
         ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```
                 - You should see something like this:
@@ -117,15 +117,15 @@ ___
 > Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/helloworld-exe/helloworld-exe ...
 > helloworld-0.1.0.0: install
 > Installing library in
-> /home/michael/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/lib/x86_64-linux-ghc-7> .10.2/helloworld-0.1.0.0-6urpPe0MO7OHasGCFSyIAT
+> /home/matt/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/lib/x86_64-linux-ghc-7> .10.2/helloworld-0.1.0.0-6urpPe0MO7OHasGCFSyIAT
 > Installing executable(s) in
-> /home/michael/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/bin
+> /home/matt/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/bin
 > Registering helloworld-0.1.0.0...
-- It's finally time to run our executable!
+- It's finally time to run your executable!
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack exec helloworld-exe```
     - This will output the string "someFunc", which will make sense once you take a look at your Main.hs file.
     - You should see something like this:
-> michael@d30748af6d3d:~/helloworld$ stack exec helloworld-exe
+> matt@d30er5643dfS:~/helloworld$ stack exec helloworld-exe
 > someFunc
 - One last thing to show you...
     - Click on the "Output" tab within the toolbar on the bottom of VS Code.
