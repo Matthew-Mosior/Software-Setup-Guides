@@ -16,7 +16,7 @@ ___
 
 To provide some insight on the tools you'll be installing and working with:
 
-- [Haskell](https://www.haskell.org/downloads) - A functional programming language.
+- [Haskell](https://www.haskell.org) - A functional programming language.
 - [Haskell Platform](https://www.haskell.org/downloads#platform) - A fully functional all-in-one installer that provides the necessary components to program in Haskell.
 - [VS Code](https://code.visualstudio.com/) - A code editor from Microsoft with many useful extensions (programs that can be downloaded and used within the editor itself).
 - [Haskero](https://marketplace.visualstudio.com/items?itemName=Vans.haskero) - A VS Code extension that utilizes stack and intero to guide the user through the wonderful world of Haskell.
@@ -76,7 +76,7 @@ ___
             - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).
         ```PS SomeDrive:\Path\To\Your\Folder> SomeDrive:\Path\To\stack.exe stack new helloworld new-template```
             - This command will create a new stack project named "helloworld" within the folder you opened in VS Code.
-                - You should see something like this:
+                 - You should see something like this:
 
 > Downloading template "new-template" to create project "helloworld" in helloworld/ ...
 >Using the following authorship configuration:
@@ -135,7 +135,7 @@ ___
 >Haskero initialization done.
 - This means Haskero is working as intended.
 
-#### Congratulations! You've now successfully installed the proper components to create, build, and execute a new stack project.  Enjoy!
+#### Congratulations! You've now successfully installed the proper components to create, build, and execute a new stack project using the Haskero extension within VS Code.  Enjoy!
 
 >For more clarification on any of the instructions once working within powershell, please follow this [link](https://docs.haskellstack.org/en/stable/GUIDE/)
 
