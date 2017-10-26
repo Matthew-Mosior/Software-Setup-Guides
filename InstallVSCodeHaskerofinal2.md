@@ -146,7 +146,7 @@ ___
 
 > **Haskero:** [Julien Vannesson](https://gitlab.com/vannnns/haskero) 
 
-> **Intero:** [Commercialhaskell](https://github.com/commercialhaskell) Contributors: [chrisdone](https://github.com/chrisdone), [purcell](https://github.com/purcell) et al.
+> **Intero:** [commercialhaskell](https://github.com/commercialhaskell) Contributors: [chrisdone](https://github.com/chrisdone), [purcell](https://github.com/purcell) et al.
 
 #### Documentation created by [Matthew Mosior](https://github.com/Matthew-Mosior), October 2017.
 
