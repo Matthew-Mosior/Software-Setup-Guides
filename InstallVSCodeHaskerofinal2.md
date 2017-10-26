@@ -94,8 +94,8 @@ ___
 >Selected resolver: lts-3.2
 >Wrote project config to: /home/matt/helloworld/stack.yaml
 - The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).  
-        ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```  
-                 - You should see something like this:
+```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```  
+    - You should see something like this:  
 > Downloaded ghc-7.10.2.
 > Installed GHC.
 > stack will use a sandboxed GHC it installed
