@@ -73,10 +73,10 @@ ___
             ```PS SomeDrive:\Path\To\Your\Folder>```
         - Now we call the "stack new" command to create a new stack project.  We'll call it helloworld.
         - Go ahead and type in the location of your stack.exe.  This is the stack toolchain executable that was installed within Haskell Platform.
-            - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).
+            - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).  
         ```PS SomeDrive:\Path\To\Your\Folder> SomeDrive:\Path\To\stack.exe stack new helloworld new-template```
             - This command will create a new stack project named "helloworld" within the folder you opened in VS Code.
-                 - You should see something like this:
+                 - You should see something like this:  
 
 > Downloading template "new-template" to create project "helloworld" in helloworld/ ...
 >Using the following authorship configuration:
