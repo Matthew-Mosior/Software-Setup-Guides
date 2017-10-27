@@ -76,23 +76,38 @@ ___
             - If you don't know its location (you probably won't since you used the default settings when installing Haskell Platform) go ahead and type stack.exe within the search bar in your file explorer window.  Make sure you do this once you are inside your OS drive (this is typically were programs reside, so its probably the C: drive).  
         ```PS SomeDrive:\Path\To\Your\Folder> SomeDrive:\Path\To\stack.exe stack new helloworld new-template```
             - This command will create a new stack project named "helloworld" within the folder you opened in VS Code.  
-                 - You should see something like this:  
-
-> Downloading template "new-template" to create project "helloworld" in helloworld/ ...
->Using the following authorship configuration:
->author-email: example@example.com
->author-name: Example Author Name
->Copy these to /home/matt/.stack/config.yaml and edit to use different values.
->Writing default config file to: /home/matt/helloworld/stack.yaml
->Basing on cabal files:
->/home/matt/helloworld/helloworld.cabal
->Downloaded lts-3.2 build plan.
->Caching build plan
->Fetched package index.
->Populated index cache.
->Checking against build plan lts-3.2
->Selected resolver: lts-3.2
->Wrote project config to: /home/matt/helloworld/stack.yaml
+                 - You should see something like this:    
+> Downloading template "new-template" to create project "helloworld" in helloworld\ ...
+> The following parameters were needed by the template but not provided: author-email, author-name, category, copyright, github-u
+> sername
+> You can provide them in C:\sr\config.yaml, like this:
+> templates:
+>   params:
+>     author-email: value
+>     author-name: value
+>     category: value
+>     copyright: value
+>     github-username: value
+> Or you can pass each one as parameters like this:
+> stack new helloworld new-template -p "author-email:value" -p "author-name:value" -p "category:value" -p "copyright:value" -p "g
+> ithub-username:value"
+> Looking for .cabal or package.yaml files to use to init the project.
+> Using cabal packages:
+> - helloworld\helloworld.cabal
+> Selecting the best among 11 snapshots...
+> Downloaded lts-9.10 build plan.
+> Selected mirror https://s3.amazonaws.com/hackage.fpcomplete.com/
+> Downloading timestamp
+> Downloading snapshot
+> Updating index
+> Updated package list downloaded
+> Populated index cache.
+> * Matches lts-9.10
+> Selected resolver: lts-9.10
+> Initialising configuration using resolver: lts-9.10
+> Total number of user packages considered: 1
+> Writing configuration to file: helloworld\stack.yaml
+> All done.  
 - The next step is to create a sandboxed GHC complier within the helloworld project you just created. (Don't worry, your not reinstalling it, its just making a instance of it to use within the immediate stack project).  
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack setup```  
     - You should see something like this:  
