@@ -120,22 +120,21 @@ ___
 - Now its time to use the command "stack build".   
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack build```
    - This will build your helloworld project and create a local helloworld-exe.  
-   - You should see something like this:
-> helloworld-0.1.0.0: configure
+   - You should see something like this:  
+> helloworld-0.1.0.0: configure (lib + exe)
 > Configuring helloworld-0.1.0.0...
-> helloworld-0.1.0.0: build
+> helloworld-0.1.0.0: build (lib + exe)
 > Preprocessing library helloworld-0.1.0.0...
-> [1 of 1] Compiling Lib              ( src/Lib.hs, >.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/Lib.o )
-> In-place registering helloworld-0.1.0.0...
+> [1 of 1] Compiling Lib              ( src\Lib.hs, .stack-work\dist\ca59d0ab\build\Lib.o )
 > Preprocessing executable 'helloworld-exe' for helloworld-0.1.0.0...
-> [1 of 1] Compiling Main             ( app/Main.hs, >.stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/helloworld-exe/helloworld-exe-tmp/Main.o )
-> Linking .stack-work/dist/x86_64-linux/Cabal-1.22.4.0/build/helloworld-exe/helloworld-exe ...
-> helloworld-0.1.0.0: install
-> Installing library in
-> /home/matt/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/lib/x86_64-linux-ghc-7> .10.2/helloworld-0.1.0.0-6urpPe0MO7OHasGCFSyIAT
-> Installing executable(s) in
-> /home/matt/helloworld/.stack-work/install/x86_64-linux/lts-3.2/7.10.2/bin
-> Registering helloworld-0.1.0.0...
+> [1 of 1] Compiling Main             ( app\Main.hs, .stack-work\dist\ca59d0ab\build\helloworld-exe\helloworld-exe-tmp\Main.o )
+> Linking .stack-work\dist\ca59d0ab\build\helloworld-exe\helloworld-exe.exe ...
+> helloworld-0.1.0.0: copy/register
+> Installing library in D:\Application
+> Data\Haskell\helloworld\.stack-work\install\e580970b\lib\x86_64-windows-ghc-8.0.2\helloworld-0.1.0.0-44GC3BWnM1QFjPMM1ngxcQ
+> Installing executable(s) in D:\Application
+> Data\Haskell\helloworld\.stack-work\install\e580970b\bin
+> Registering helloworld-0.1.0.0...  
 - It's finally time to run your executable!  
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack exec helloworld-exe```
     - This will output the string "someFunc", which will make sense once you take a look at your Main.hs file.
