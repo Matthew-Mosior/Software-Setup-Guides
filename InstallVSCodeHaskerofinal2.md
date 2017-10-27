@@ -138,9 +138,9 @@ ___
 - It's finally time to run your executable!  
 ```PS SomeDrive:\Path\To\Your\Folder\helloworld> stack exec helloworld-exe```
     - This will output the string "someFunc", which will make sense once you take a look at your Main.hs file.
-    - You should see something like this:
-> matt@d30er5643dfS:~/helloworld$ stack exec helloworld-exe
-> someFunc
+    - You should see something like this:  
+> PS D:\Application Data\Haskell\helloworld> stack exec helloworld-exe
+> someFunc  
 - One last thing to show you...
     - Click on the "Output" tab within the toolbar on the bottom of VS Code.  
         - This should display the following:  
