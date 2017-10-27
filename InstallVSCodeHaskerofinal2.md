@@ -93,7 +93,7 @@ ___
 > ithub-username:value"
 > Looking for .cabal or package.yaml files to use to init the project.
 > Using cabal packages:
-> - helloworld\helloworld.cabal
+> -helloworld\helloworld.cabal
 > Selecting the best among 11 snapshots...
 > Downloaded lts-9.10 build plan.
 > Selected mirror https://s3.amazonaws.com/hackage.fpcomplete.com/
@@ -102,7 +102,7 @@ ___
 > Updating index
 > Updated package list downloaded
 > Populated index cache.
-> * Matches lts-9.10
+>  *Matches lts-9.10
 > Selected resolver: lts-9.10
 > Initialising configuration using resolver: lts-9.10
 > Total number of user packages considered: 1
